@@ -3,7 +3,7 @@ from flask_cors import CORS
 import openai
 import validators
 
-openai.api_key = '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'
+openai.api_key = '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'
 
 app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}})  # Allow all origins for all routes
